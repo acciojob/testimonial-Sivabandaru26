@@ -16,7 +16,6 @@
       padding: 40px;
     }
 
-    /* Updated from h2 → h1 */
     .testimonial-section h1 {
       font-size: 28px;
       margin-bottom: 20px;
@@ -29,13 +28,8 @@
       margin-bottom: 20px;
     }
 
-    .testimonial p {
-      margin: 0;
-      font-size: 16px;
-      line-height: 1.5;
-    }
-
-    .author {
+    .testimonial em {
+      display: block;
       text-align: right;
       margin-top: 10px;
       font-style: italic;
@@ -46,17 +40,16 @@
 <body>
 
   <div class="testimonial-section">
-    <!-- Changed to h1 for Cypress test -->
     <h1>Testimonials</h1>
 
     <div class="testimonial">
-      <p>This product is amazing! I highly recommend it to anyone in need of a solution like this.</p>
-      <div class="author">- John Doe</div>
+      This product is amazing! I highly recommend it to anyone in need of a solution like this.
+      <em>- John Doe</em>
     </div>
 
     <div class="testimonial">
-      <p>I have been using this for a few weeks now and it has completely transformed my workflow.</p>
-      <div class="author">- Jane Smith</div>
+      I have been using this for a few weeks now and it has completely transformed my workflow.
+      <em>- Jane Smith</em>
     </div>
   </div>
 
